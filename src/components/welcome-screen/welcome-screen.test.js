@@ -7,6 +7,7 @@ it(`Welcome screen correctly renders after relaunch`, () => {
     .create(<WelcomeScreen
       time={0}
       errorCount={0}
+      clickHandler={()=>{}}
     />)
   .toJSON();
 

@@ -1,6 +1,3 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-
 const WelcomeScreen = (props) => {
   const {time, errorCount, clickHandler} = props;
   return <section className="welcome">
