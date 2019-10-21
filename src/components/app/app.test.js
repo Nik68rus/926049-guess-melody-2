@@ -7,6 +7,7 @@ it(`App correctly renders after relaunch`, () => {
     .create(<App
       gameTime={0}
       errorCount={0}
+      clickHandler={()=>{}}
     />)
   .toJSON();
 
