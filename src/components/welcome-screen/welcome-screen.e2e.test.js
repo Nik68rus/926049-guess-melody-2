@@ -1,4 +1,3 @@
-import React from 'react';
 import Enzyme, {shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import WelcomeScreen from '../welcome-screen/welcome-screen';
@@ -12,7 +11,7 @@ it(`Button click action called once`, () => {
       <WelcomeScreen
         time={0}
         errorCount={0}
-        clickHandler={clickHandler}
+        onStartButtonClick={clickHandler}
       />
   );
 
