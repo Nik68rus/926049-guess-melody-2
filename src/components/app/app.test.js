@@ -1,4 +1,3 @@
-import React from 'react';
 import renderer from 'react-test-renderer';
 import App from '../app/app';
 
@@ -7,7 +6,7 @@ it(`App correctly renders after relaunch`, () => {
     .create(<App
       gameTime={0}
       errorCount={0}
-      clickHandler={()=>{}}
+      questions={[]}
     />)
   .toJSON();
 
