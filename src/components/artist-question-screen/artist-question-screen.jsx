@@ -72,7 +72,6 @@ export default class ArtistQuestionScreen extends PureComponent {
 }
 
 ArtistQuestionScreen.propTypes = {
-
   question: PropTypes.shape({
     type: PropTypes.string.isRequired,
     song: PropTypes.shape({

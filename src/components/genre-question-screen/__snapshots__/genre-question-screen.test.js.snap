@@ -94,6 +94,8 @@ exports[`Genre question screen correctly renders after relaunch 1`] = `
       >
         <button
           className="track__button track__button--play"
+          disabled={true}
+          onClick={[Function]}
           type="button"
         />
         <div
@@ -106,14 +108,14 @@ exports[`Genre question screen correctly renders after relaunch 1`] = `
         >
           <input
             className="game__input visually-hidden"
-            id="answer-0"
+            id="answer-undefined"
             name="answer"
             type="checkbox"
             value=""
           />
           <label
             className="game__check"
-            htmlFor="answer-0"
+            htmlFor="answer-undefined"
           >
             Отметить
           </label>
