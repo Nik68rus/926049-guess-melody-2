@@ -16,7 +16,7 @@ export default class AudioPlayer extends React.PureComponent {
   render() {
     const {isLoading, isPlaying} = this.state;
     return (
-      <React.Fragment>
+      <>
         <button
           className={`track__button track__button--${isPlaying ? `pause` : `play`}`}
           type="button"
@@ -28,7 +28,7 @@ export default class AudioPlayer extends React.PureComponent {
             ref={this._audioRef}
           />
         </div>
-      </React.Fragment>
+      </>
     );
   }
 
