@@ -1,6 +1,4 @@
-import {PureComponent, Fragment} from 'react';
-
-export default class AudioPlayer extends PureComponent {
+export default class AudioPlayer extends React.PureComponent {
   constructor(props) {
     super(props);
 
@@ -18,7 +16,7 @@ export default class AudioPlayer extends PureComponent {
   render() {
     const {isLoading, isPlaying} = this.state;
     return (
-      <Fragment>
+      <React.Fragment>
         <button
           className={`track__button track__button--${isPlaying ? `pause` : `play`}`}
           type="button"
@@ -30,7 +28,7 @@ export default class AudioPlayer extends PureComponent {
             ref={this._audioRef}
           />
         </div>
-      </Fragment>
+      </React.Fragment>
     );
   }
 

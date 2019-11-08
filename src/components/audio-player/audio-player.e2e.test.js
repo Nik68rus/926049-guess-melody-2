@@ -1,5 +1,5 @@
 import {mount} from 'enzyme';
-import {AudioPlayer} from './audio-player.jsx';
+import AudioPlayer from './audio-player.jsx';
 
 window.HTMLMediaElement.prototype.pause = () => {};
 

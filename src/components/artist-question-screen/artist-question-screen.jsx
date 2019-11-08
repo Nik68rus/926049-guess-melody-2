@@ -1,7 +1,6 @@
-import {PureComponent} from 'react';
 import AudioPlayer from '../audio-player/audio-player';
 
-export default class ArtistQuestionScreen extends PureComponent {
+export default class ArtistQuestionScreen extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

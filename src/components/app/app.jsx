@@ -1,9 +1,8 @@
 import WelcomeScreen from '../welcome-screen/welcome-screen';
 import GenreQuestionScreen from '../genre-question-screen/genre-question-screen';
 import ArtistQuestionScreen from '../artist-question-screen/artist-question-screen';
-import {PureComponent} from 'react';
 
-export default class App extends PureComponent {
+export default class App extends React.PureComponent {
   static getScreen(question, props, onUserAnswer) {
     if (question === -1) {
       const {gameTime, errorCount} = props;
