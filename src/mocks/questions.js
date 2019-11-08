@@ -1,31 +1,37 @@
 export const questions = [
   {
+    id: 1,
     type: `genre`,
     genre: `rock`,
     answers: [
       {
-        src: `https://upload.wikimedia.org/wikipedia/commons/1/1f/Uganda_flag_and_national_anthem_-_Oh_Uganda_Land_o.ogg`,
+        id: 1,
+        src: `https://upload.wikimedia.org/wikipedia/commons/9/90/National-Anthem-of-Spain-_1931-1939_-Himno-de-Riego.ogg`,
         genre: `rock`,
       },
       {
-        src: `https://upload.wikimedia.org/wikipedia/commons/1/1f/Uganda_flag_and_national_anthem_-_Oh_Uganda_Land_o.ogg`,
+        id: 2,
+        src: `https://upload.wikimedia.org/wikipedia/commons/c/c0/National_anthem_of_Italy_-_U.S._Navy_Band_%28long_version%29.ogg`,
         genre: `pop`,
       },
       {
-        src: `https://upload.wikimedia.org/wikipedia/commons/1/1f/Uganda_flag_and_national_anthem_-_Oh_Uganda_Land_o.ogg`,
+        id: 3,
+        src: `https://upload.wikimedia.org/wikipedia/commons/3/30/La_Marseillaise.ogg`,
         genre: `jazz`,
       },
       {
-        src: `https://upload.wikimedia.org/wikipedia/commons/1/1f/Uganda_flag_and_national_anthem_-_Oh_Uganda_Land_o.ogg`,
+        id: 4,
+        src: `https://upload.wikimedia.org/wikipedia/commons/6/60/Brazilian_Flag_Anthem.ogg`,
         genre: `rock`,
       },
     ],
   },
   {
+    id: 2,
     type: `artist`,
     song: {
       artist: `Jim Beam`,
-      src: `https://upload.wikimedia.org/wikipedia/commons/1/1f/Uganda_flag_and_national_anthem_-_Oh_Uganda_Land_o.ogg`,
+      src: `https://upload.wikimedia.org/wikipedia/commons/2/2b/I_Love_You%2C_California%2C_by_Knickerbocker_Quartet_and_Elizabeth_Spencer_%28cusb-cyl0260d%29.ogg`,
     },
     answers: [
       {

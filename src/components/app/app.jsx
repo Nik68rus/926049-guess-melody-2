@@ -54,7 +54,6 @@ export default class App extends PureComponent {
       const isEnd = nextIndex >= questions.length;
 
       return {
-        prevState,
         question: !isEnd ? nextIndex : -1,
         currentAnswer: answer,
       };
